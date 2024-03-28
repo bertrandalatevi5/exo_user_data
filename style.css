@@ -1,0 +1,63 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.navbar-brand{
+    color: black;
+    font-weight: bold;
+    font-size: 23px !important;
+}
+.land{
+    color: #ff7a00;
+}
+nav ul li{
+    font-weight: bold;
+}
+/* banner */
+.banner{
+    background: url(oiseau.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 650px;
+}
+.overlay{
+    width: 100%;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay h2{
+    font-size: 50px;
+    color: #ff7a00;
+}
+.overlay h3{
+    font-size: 30px;
+} 
+.overlay p{
+    max-width: 600px;
+}
+.overlay a{
+    color: white;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+.overlay a:hover{
+    color: black;
+}
+/* footer */
+footer p{
+    color: #777;
+}
+footer{
+    background-color: #444;
+}
+
